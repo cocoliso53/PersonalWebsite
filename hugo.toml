@@ -1,0 +1,28 @@
+baseURL = "https://example.com/"
+title = "Your Name"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+enableRobotsTXT = true
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+    contentDir = "content/en"
+    [languages.en.params]
+      home = "Home"
+      writing = "Writing"
+  [languages.es]
+    languageName = "Español"
+    weight = 2
+    contentDir = "content/es"
+    [languages.es.params]
+      home = "Inicio"
+      writing = "Escritos"
+  [languages.it]
+    languageName = "Italiano"
+    weight = 3
+    contentDir = "content/it"
+    [languages.it.params]
+      home = "Inizio"
+      writing = "Scritti"

@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ with .Description }}{{ . }}{{ else }}{{ .Site.Title }}{{ end }}">
+    <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }} · {{ .Site.Title }}{{ end }}</title>
+    {{ with resources.Get "css/site.css" }}<link rel="stylesheet" href="{{ .RelPermalink }}">{{ end }}
+  </head>
+  <body>
+    <div class="shell">
+      <header class="site-header">
+        <a class="site-name" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Title }}</a>
+        <nav class="site-nav" aria-label="Main navigation">
+          <a href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.home }}</a>
+          <a href="{{ "blog/" | relLangURL }}">{{ .Site.Params.writing }}</a>
+        </nav>
+        <nav class="languages" aria-label="Language">
+          {{ range .AllTranslations }}<a href="{{ .RelPermalink }}"{{ if eq .Language.Lang $.Site.Language.Lang }} aria-current="page"{{ end }}>{{ .Language.LanguageName }}</a>{{ end }}
+        </nav>
+      </header>
+      <main>{{ block "main" . }}{{ end }}</main>
+      <footer>© {{ now.Year }} {{ .Site.Title }} · <a href="mailto:hello@example.com">hello@example.com</a></footer>
+    </div>
+  </body>
+</html>
