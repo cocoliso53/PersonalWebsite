@@ -1,5 +1,5 @@
 baseURL = "https://example.com/"
-title = "Your Name"
+title = "Cuau Cortés"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
@@ -11,6 +11,7 @@ enableRobotsTXT = true
     contentDir = "content/en"
     [languages.en.params]
       home = "Home"
+      email = "me@cuaucortes.com"
       writing = "Writing"
   [languages.es]
     languageName = "Español"
@@ -18,6 +19,7 @@ enableRobotsTXT = true
     contentDir = "content/es"
     [languages.es.params]
       home = "Inicio"
+      email = "yo@cuaucortes.com"
       writing = "Escritos"
   [languages.it]
     languageName = "Italiano"
@@ -25,4 +27,5 @@ enableRobotsTXT = true
     contentDir = "content/it"
     [languages.it.params]
       home = "Inizio"
+      email = "io@cuaucortes.com"
       writing = "Scritti"
