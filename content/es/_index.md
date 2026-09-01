@@ -1,51 +1,60 @@
 ---
-title: "Tu Nombre"
+title: "Cuau Cortés"
 ---
 
-# Tu Nombre
+# Cuau Cortés
 
-Una breve línea que describa quién eres y qué haces.
+<!-- EN: I'm a developer and two-time founder based in Mexico City. I enjoy learning about pre-Hispanic history and competing in track and field events. -->
 
-## Permanente
+## [Translate: About me]
 
-Algunas cosas que suelen ser verdad sobre mí:
+<!-- EN: I consider myself a problem solver more than a dev/backend/frontend/whatever. I see software as a mean to solve problems not as the end itself so I'll do what needs to be done. -->
 
-- Soy **[rol o disciplina]** y vivo en **[ciudad / país]**.
-- Trabajo en **[los tipos de problemas o productos que te importan]**.
-- Me interesan especialmente **[tres intereses duraderos]**.
-- Ahora mismo estoy **[lo que haces o exploras]**.
+<!-- EN: I have more fun working for small companies where I can wear many hats, talk to customers directly and have enough autonomy to make decisions. Lately I've been getting more and more into 3D printing and hardware/electronics (see PlanPlanPlants and TZeroHero). -->
 
-Puedes encontrarme por [correo](mailto:hello@example.com), [GitHub](https://github.com/tu-usuario) o [LinkedIn](https://www.linkedin.com/in/tu-usuario).
+<!-- EN: Send me an email [me at cuaucortes.com](mailto:me@cuaucortes.com), [GitHub](https://github.com/cocoliso53), or [LinkedIn](https://www.linkedin.com/in/cecs/). -->
 
-## Portafolio
+## [Translate: Startups founded]
 
-### Anteriores
 
-#### [Nombre del proyecto](https://example.com)
+### Suarmi (RIP 2024)
 
-Una descripción breve: qué es, qué hiciste y por qué fue importante.
+<!-- EN: Crypto <> fiat ramp for the Mexican market connected directly into Mexican banking rails. Pretty innovative at the time since the only options were P2P or credit/debit cards. -->
+<!-- EN: We made buying and selling crypto in Mexico fast and affordable. I built the entire tech stack using Clojure, ClojureScript, Datomic, a bit of Python and vanilla JS. -->
 
-#### [Otro proyecto](https://example.com)
+### Resuave (exit 2021)
 
-Una descripción breve del problema, tu contribución y el resultado.
+<!-- EN: Sending money from the US/Europe to Mexico is solved, Wise, Remitly, etc.—the list goes on. Turns out sending money FROM Mexico to other countries was super expensive and slow. -->
+<!-- EN: We founded Resuave in 2020 to tackle that problem. It was acquired a year after working on it. Here's where I first picked my Clojure based stack. -->
 
-### En curso
+## [Translate: Current Projects]
 
-#### [Proyecto en proceso](https://example.com)
+<!-- EN: I've been using LLMs to learn more about hardware and electronics, and since getting a 3D printer now I'm not limited to software when coming up with products or solutions. These are some of the things I'm working at the moment: -->
 
-En qué estás trabajando, qué exploras o qué estás mejorando. Una frase sobre su dirección es suficiente.
+### PlanPlanPlants
 
-### Por definir
+<!-- EN: I like plants. My plants are alive and well but they are not blooming as I think they could be blooming. I want to track how healthy they are in order for them to grow beautiful. -->
+<!-- EN: Currently working on v2 of this, v1 was completed and left a lot of learnings. -->
 
-#### Una idea para después
+### TZeroHero
 
-Una breve nota sobre un proyecto que quieres hacer, una pregunta que estás siguiendo o una colaboración que buscas.
+<!-- EN: Measuring performance is essential for progress, sprinting is no different. My main issue right now is that I run in a fairly busy track. There are plenty of solutions to measure speed in track and field events but they are either way too [expensive](https://freelap.com/athletics) or just not good enough for the conditions I train in. -->
+<!-- EN: I'm building an ESP32 mini + Raspberry Pi system to measure my sprinting times. -->
 
-## Blog
+### TrackThrow
 
-Escribo ocasionalmente sobre software, trabajo, ideas y cosas que estoy aprendiendo.
+<!-- EN: Pretty much the same issue I have for TZeroHero, since I'm also a thrower I need a device or something that can tell me how far I throw in each workout. -->
 
-- [Un comienzo pequeño](/es/blog/a-small-start/)
-- [Título de otra publicación](/es/blog/otra-publicacion/)
+## [Translate: Ideas for the future]
 
-[Leer todos los escritos →](/es/blog/)
+<!-- EN: I'd like to get into autonomous robots, especially drones and roombas. Some projects already exist in which I'd like to get involved. -->
+
+## [Translate: Blog]
+
+<!-- EN: I write occasionally about software, ideas, and things I'm learning. -->
+
+<!-- EN: - [3D printed PCBs](/blog/3d-pcbs/) -->
+- [Translate: 3D printed PCBs](/es/blog/3d-pcbs/)
+
+<!-- EN: [Read all writing →](/blog/) -->
+[Translate: Read all writing →](/es/blog/)
