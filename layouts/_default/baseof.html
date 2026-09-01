@@ -11,12 +11,6 @@
     <div class="shell">
       <header class="site-header">
         <a class="site-name" href="{{ .Site.Home.RelPermalink }}">{{ .Site.Params.home }}</a>
-        <nav class="site-nav" aria-label="Main navigation">
-          <a href="{{ "blog/" | relLangURL }}">{{ .Site.Params.writing }}</a>
-        </nav>
-        <nav class="languages" aria-label="Language">
-          {{ range .AllTranslations }}<a href="{{ .RelPermalink }}"{{ if eq .Language.Lang $.Site.Language.Lang }} aria-current="page"{{ end }}>{{ .Language.LanguageName }}</a>{{ end }}
-        </nav>
       </header>
       <main>{{ block "main" . }}{{ end }}</main>
       <footer>© {{ now.Year }} {{ .Site.Title }} · <a href="mailto:{{ .Site.Params.email }}">{{ .Site.Params.email }}</a></footer>

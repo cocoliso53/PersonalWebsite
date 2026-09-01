@@ -3,6 +3,8 @@ title = "Cuau Cortés"
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir = false
 enableRobotsTXT = true
+disableLanguages = ["es", "it"]
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap"]
 
 [languages]
   [languages.en]
