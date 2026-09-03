@@ -2,6 +2,7 @@
 title: "A small start"
 date: 2026-08-22
 description: "Why this site begins with fewer moving parts."
+draft: true
 translationKey: "a-small-start"
 ---
 

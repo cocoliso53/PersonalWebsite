@@ -16,6 +16,7 @@ h2 { margin-top:3.5rem; font-size:1.45rem; }
 p { margin:0 0 1.2rem; }
 .lede { max-width:38rem; color:var(--muted); font-size:1.2rem; }
 .meta,footer { color:var(--muted); font: .85rem/1.4 ui-sans-serif,system-ui,sans-serif; }
+.cv-title { margin:0 0 2rem; font-size:1.45rem; }
 .list { margin:2.5rem 0 0; padding:0; list-style:none; }
 .list li { padding:1.25rem 0; border-top:1px solid var(--line); }
 .list h2 { margin:0 0 .25rem; font-size:1.25rem; }
